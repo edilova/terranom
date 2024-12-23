@@ -1,0 +1,16 @@
+.header {
+  height: 4rem;
+  .nav-link {
+    color: #000;
+    padding: 0 2rem;
+  }
+  .nav-link:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (max-width: 600px)  {
+  .nav {
+    display: none;
+  }
+}

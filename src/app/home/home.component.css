@@ -1,0 +1,164 @@
+.home {
+  height: 90vh;
+  .text-highlighted {
+    color: #DF6951;
+    font-weight: bold;
+  }
+  .text-description {
+    font-size: 1.1rem;
+  }
+  .btn-find-more {
+    background-color: #F1A501;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 5px #F1A501;
+  }
+  .btn-find-more:hover {
+    transform: scale(1.1);
+  }
+  .play-demo {
+    width: 50px;
+  }
+  .play-demo:hover {
+    transform: scale(1.1);
+  }
+}
+.services {
+  height: 80vh;
+  .services-bg {
+    width: 80%;
+  }
+  img {
+    width: 7rem;
+    z-index: -2;
+  }
+  .block:hover {
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #F1A501;
+    transform: scale(1.2);
+    background-color: white;
+  }
+}
+.destinations {
+  height: 90vh;
+  .destinations-bg {
+    width: 10rem;
+    z-index: -2;
+    rotate: 45deg;
+  }
+  .block {
+    width: 20rem;
+    border-radius: 27px;
+    box-shadow: 0px 0px 5px #dfdfdf;
+
+  }
+  .block:hover {
+    transform: scale(1.1);
+    background-color: white;
+  }
+  img {
+    /*width: ;*/
+  }
+  p > img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  .block-bottom {
+    background-color: #fff;
+    border-radius: 0 0 23px 23px;
+  }
+}
+.next-trip {
+  height: 80vh;
+  .next-trip-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .text-highlighted {
+    color: #5E6282;
+  }
+  .next-trip-bg {
+    top: -8rem;
+  }
+}
+.subscribe {
+  height: 70vh;
+  .subscribe-bg {
+    z-index: -2;
+  }
+  input {
+    height: 4rem;
+    width: 28rem;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 0;
+  }
+  button {
+    height: 4rem;
+    width: 12rem;
+    border-radius: 10px;
+    background-color: #DF6951;
+    border: 0;
+    color: #fff;
+  }
+  h2 {
+    color: #5E6282;
+  }
+}
+.footer {
+  height: 35vh;
+  .footer-socials {
+    width: 10rem;
+  }
+  .footer-name {
+    color: #5E6282;
+  }
+}
+
+@media only screen and (max-width: 600px)  {
+  .home {
+    height: 55vh;
+    padding-top: 4rem;
+  }
+  .services {
+    height: 145vh;
+    .block {
+      padding: 0 !important;
+    }
+  }
+  .destinations {
+    height: 185vh;
+    .block {
+      margin-top: 30px !important;
+    }
+  }
+  .next-trip {
+    height: 127vh;
+    .next-trip-bg {
+      top: -15rem;
+    }
+  }
+  .subscribe {
+    height: 45vh;
+    h2 {
+      font-size: 1rem;
+      width: 65%;
+    }
+    input {
+      width: 100%;
+      background-color: #F9F7FE;
+    }
+    button {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .subscribe-form {
+      width: 90%;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  }
+}
